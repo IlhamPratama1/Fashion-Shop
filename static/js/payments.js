@@ -7,7 +7,7 @@ var elements = stripe.elements();
 var style = {
     base: {
         color: "#000",
-        lineHeight: '4.4',
+        lineHeight: '6.4',
         fontSize: '16px'
     }
 };
