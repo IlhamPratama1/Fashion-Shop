@@ -35,7 +35,7 @@ form.addEventListener('submit', function (ev) {
     var custAdd2 = document.getElementById("custAdd2").value;
     var postCode = document.getElementById("postCode").value;
 
-    var URL = 'http://127.0.0.1:8000/order/add/'
+    var URL = 'https://pratamailham.pythonanywhere.com/order/add/'
 
     $.ajax({
         type: "POST",
@@ -70,7 +70,7 @@ form.addEventListener('submit', function (ev) {
                         // execution. Set up a webhook or plugin to listen for the
                         // payment_intent.succeeded event that handles any business critical
                         // post-payment actions.
-                        window.location.replace("http://127.0.0.1:8000/payment/orderplaced/");
+                        window.location.replace("https://pratamailham.pythonanywhere.com/payment/orderplaced/");
                     }
                 }
             });

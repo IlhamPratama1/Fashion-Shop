@@ -110,14 +110,11 @@ LOGIN_REDIRECT_URL = '/account/dashboard'
 LOGIN_URL = '/account/login'
 
 # Email setting
-DEFAULT_FROM_EMAIL = 'xxr77ilham@gmail.com'
-SERVER_EMAIL = 'xxr77ilham@gmail.com'
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_USE_TLS = True
+EMAIL_HOST = "smtp.gmail.com"
+EMAIL_HOST_USER = "pratamailham206@gmail.com"
+EMAIL_HOST_PASSWORD = 'ilham11pratama'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'xxr77ilham@gmail.com'
-EMAIL_HOST_PASSWORD = 'sc99bence'
+EMAIL_USE_TLS = True
 
 # Stripe payment
 PUBLISHABLE_KEY = 'pk_test_51JQ0vKAMyq8PpY7xNS3m6EhB29HUGSx7OmmONegcvVV33bjPYcWLyfTiVhsHZKOQ2oFmtpDoSPqhFMqUOP85ANRG00x84FF9MS'

@@ -245,7 +245,7 @@
             success: function (json) {
                 var item = json[0];
                 var product = json[0].fields;
-                var URL = 'http://127.0.0.1:8000/';
+                var URL = 'https://pratamailham.pythonanywhere.com/';
                 document.getElementById("product-title").innerHTML = product.title;
                 document.getElementById("product-price").innerHTML = product.price;
                 document.getElementById("product-description").innerHTML = product.description;
