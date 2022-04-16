@@ -56,12 +56,12 @@ this project using Stripe to handle payment.
 
 # Screenshot
 
-<img src="static/images/screenshot/1.PNG"  width="29.5%">
-<img src="static/images/screenshot/2.PNG"  width="29.5%">
-<img src="static/images/screenshot/3.PNG"  width="29.5%">
-<img src="static/images/screenshot/4.PNG"  width="29.5%">
-<img src="static/images/screenshot/5.PNG"  width="29.5%">
-<img src="static/images/screenshot/6.PNG"  width="29.5%">
+<img src="static/images/screenshot/1.PNG"  width="49.5%">
+<img src="static/images/screenshot/2.PNG"  width="49.5%">
+<img src="static/images/screenshot/3.PNG"  width="49.5%">
+<img src="static/images/screenshot/4.PNG"  width="49.5%">
+<img src="static/images/screenshot/5.PNG"  width="49.5%">
+<img src="static/images/screenshot/6.PNG"  width="49.5%">
 
 # License
 
